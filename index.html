@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left:10%;
+            margin-bottom: 150px;
+            font-family: 'Work Sans', sans-serif;
+        }
+        canvas{
+            border: 1px solid red;
+        }
+        data:hover::after{
+            content: '(ID ' attr(value)')';
+            font-size: 0.8em;
+        }
+        datalist{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- html5 all tag list -->
+    <!-- article tag -->
+    <h1>Article Tag</h1>
+    <article>
+        <h2>Hello Article</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </article>
+    <!-- aside tag -->
+    <h1>Aside tag</h1>
+    <aside>
+        <p>NavBar</p>
+    </aside>
+    <h1>BDI tag</h1>
+    <!-- bdi tag -->
+    <p dir="ltr">Lorem <bdi>ipsum dolor</bdi> sit amet.</p>
+    <!-- big tag -->
+    <h1>Big tag</h1>
+    <p>Lorem ipsum dolor sit amet <big>consectetur</big></p>
+    <!-- canvas -->
+    <h1>Canvas tag</h1>
+    <canvas id="myCanvas" width="300" height="300">
+    </canvas>
+    <!-- data tag -->
+    <h1>data tag</h1>
+    <p>New Product</p>
+    <ul>
+        <caption>Hover this item</caption>
+        <li>
+            <data value="300">Green Tea</data>
+        </li>
+        <li>
+            <data value="205">Tomato</data>
+        </li>
+        <li>
+            <data value="210">Coffee</data>
+        </li>
+    </ul>
+    <!-- details -->
+    <h1>details tag</h1>
+    <details>
+        <summary>What is Html</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nostrum rem, sequi dignissimos dolorem sunt temporibus ratione alias perspiciatis vitae?</p>
+        <a href="https://www.google.com">Go to google</a>
+    </details>
+    <details>
+        <summary>What is Css</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nostrum rem, sequi dignissimos dolorem sunt temporibus ratione alias perspiciatis vitae?</p>
+        <a href="https://www.google.com">Go to google</a>
+    </details>
+    <details>
+        <summary>What is Bootstrap</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nostrum rem, sequi dignissimos dolorem sunt temporibus ratione alias perspiciatis vitae?</p>
+        <a href="https://www.google.com">Go to google</a>
+    </details>
+    <!-- dialog tag -->
+    <h1>Skip Dialog Tag</h1>
+    <dialog>
+        Dialog
+    </dialog>
+    <!-- embed tag -->
+    <h1>Embed tag</h1>
+    <embed src="banner.png" width="400" height="300">
+        <!-- fieldset -->
+        <h1>Fieldset</h1>
+    <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+    </fieldset>
+    <!-- figure -->
+    <h1>Figcaption and figure tag</h1>
+    <figure>
+        <img src="banner.png" width="400" height="400" alt="banner">
+        <figcaption>Banner Image</figcaption>
+    </figure>
+    <!-- heading group tag -->
+    <h1>Heading group tag</h1>
+    <hgroup>
+        <h1>Heading 1</h1>
+        <h2>Heading2</h2>
+        <h3>Heading2</h3>
+        <h4>Heading2</h4>
+    </hgroup>
+    <!-- meter tag -->
+    <h1>meter tag</h1>
+    <p>Disk Usage: <meter value="0.8">80%</meter></p>
+    <p>Total Score: <meter value="6" min="0" max="10">6 out of 10</meter></p>
+    <p>Pollution Level: <meter low="60" high="80" max="100" value="85">6 out of 10</meter></p>
+
+    <!-- footer tag -->
+    <h1>footer tag</h1>
+    <footer><p>Copyright &copy; Fakrul Hossain</p></footer>
+    </main>
+</body>
+</html>
